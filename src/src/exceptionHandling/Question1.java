@@ -11,7 +11,9 @@ package src.exceptionHandling;
  * MyMain class to perform the sum of two user given values
  */
 class MyMain {
+	public static void main(String[] args) {
 
+	}
 }
 
 class MyFirstException extends Exception {
