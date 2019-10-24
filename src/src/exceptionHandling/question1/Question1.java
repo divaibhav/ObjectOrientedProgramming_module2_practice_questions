@@ -5,7 +5,7 @@
  *    Time: 3:02 PM
  */
 
-package src.exceptionHandling;
+package src.exceptionHandling.question1;
 
 import java.util.Scanner;
 
@@ -23,16 +23,5 @@ class MyMain {
 		} else {
 			System.out.println("The sum of " + firstNumber + " + " + secondNumber + " = " + sumOfTwoUserValues);
 		}
-	}
-}
-
-class MyFirstException extends Exception {
-
-	/**
-	 * Parametrized constructor for class
-	 * calls the super class' constructor and passes in the 'message'
-	 */
-	public MyFirstException(String message) {
-		super(message);
 	}
 }
