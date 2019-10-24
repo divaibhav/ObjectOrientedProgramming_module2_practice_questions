@@ -17,7 +17,8 @@ class MyMain {
 		final Scanner scanner = new Scanner(System.in);
 		int firstNumber = scanner.nextInt();
 		int secondNumber = scanner.nextInt();
-	}
+		int sumOfTwoUserValues = firstNumber + secondNumber;
+
 }
 
 class MyFirstException extends Exception {
