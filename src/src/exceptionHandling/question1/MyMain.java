@@ -12,7 +12,7 @@ import java.util.Scanner;
 /**
  * MyMain class to perform the sum of two user given values
  */
-class MyMain {
+public class MyMain {
 	public static void main(String[] args) throws MyFirstException {
 		final Scanner scanner = new Scanner(System.in);
 		int firstNumber = scanner.nextInt();
