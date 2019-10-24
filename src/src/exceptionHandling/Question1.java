@@ -22,8 +22,9 @@ class MyMain {
 			throw new MyFirstException("Custom Exception Occurred");
 		}
 	}
+}
 
-	static class MyFirstException extends Exception {
+class MyFirstException extends Exception {
 
 	/**
 	 * Parametrized constructor for class
