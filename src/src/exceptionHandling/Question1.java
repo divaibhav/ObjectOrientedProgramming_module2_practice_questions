@@ -15,6 +15,7 @@ import java.util.Scanner;
 class MyMain {
 	public static void main(String[] args) {
 		final Scanner scanner = new Scanner(System.in);
+		int firstNumber = scanner.nextInt();
 	}
 }
 
