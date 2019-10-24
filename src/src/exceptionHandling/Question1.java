@@ -20,6 +20,8 @@ class MyMain {
 		int sumOfTwoUserValues = firstNumber + secondNumber;
 		if (sumOfTwoUserValues < 150) {
 			throw new MyFirstException("Custom Exception Occurred");
+		} else {
+			System.out.println("The sum of " + firstNumber + " + " + secondNumber + " = " + sumOfTwoUserValues);
 		}
 	}
 }
