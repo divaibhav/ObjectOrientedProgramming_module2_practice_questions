@@ -10,3 +10,6 @@ package src.exceptionHandling;
 public class Question1 {
 }
 
+class MyFirstException {
+
+}
