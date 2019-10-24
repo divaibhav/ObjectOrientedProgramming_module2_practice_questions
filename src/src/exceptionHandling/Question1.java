@@ -12,4 +12,11 @@ public class Question1 {
 
 class MyFirstException extends Exception {
 
+	/**
+	 * Parametrized constructor for class
+	 * calls the super class' constructor and passes in the 'message'
+	 */
+	public MyFirstException(String message) {
+		super(message);
+	}
 }
