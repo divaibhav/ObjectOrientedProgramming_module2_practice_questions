@@ -13,15 +13,17 @@ import java.util.Scanner;
  * MyMain class to perform the sum of two user given values
  */
 class MyMain {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws MyFirstException {
 		final Scanner scanner = new Scanner(System.in);
 		int firstNumber = scanner.nextInt();
 		int secondNumber = scanner.nextInt();
 		int sumOfTwoUserValues = firstNumber + secondNumber;
+		if (sumOfTwoUserValues < 150) {
+			throw new MyFirstException("Custom Exception Occurred");
+		}
+	}
 
-}
-
-class MyFirstException extends Exception {
+	static class MyFirstException extends Exception {
 
 	/**
 	 * Parametrized constructor for class
