@@ -7,7 +7,11 @@
 
 package src.exceptionHandling;
 
-public class Question1 {
+/**
+ * MyMain class to perform the sum of two user given values
+ */
+class MyMain {
+
 }
 
 class MyFirstException extends Exception {
