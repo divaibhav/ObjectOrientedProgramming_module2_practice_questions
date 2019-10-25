@@ -6,7 +6,7 @@ package src.collections.question2;
 public class Main {
     public static void main(String[] args) {
         // check if the user entered any command line argument
-        if (args.length < 0) {
+        if (args.length == 0) {
             // the user did not enter any command line arguments
             System.out.println("No command line argument given!");
         } else {
