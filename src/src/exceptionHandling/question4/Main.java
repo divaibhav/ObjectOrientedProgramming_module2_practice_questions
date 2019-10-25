@@ -14,6 +14,9 @@ public class Main {
             int counter = 0;
             String str;
             char[] characters = stringValue.toCharArray();
+            while (counter >= 0) {
+                System.out.println(characters[counter++]);
+            }
         } catch (ArrayIndexOutOfBoundsException ae) {
             System.out.println("Array Indices Went Out Of Bounds!");
         }
