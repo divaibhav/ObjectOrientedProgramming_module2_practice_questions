@@ -10,6 +10,9 @@ public class Main {
         String stringValue = scanner.nextLine();
         //  close the scanner reference
         scanner.close();
-
+        try {
+        } catch (ArrayIndexOutOfBoundsException ae) {
+            System.out.println("Array Indices Went Out Of Bounds!");
+        }
     }
 }
