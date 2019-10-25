@@ -11,6 +11,7 @@ public class Main {
             System.out.println("No command line argument given!");
         } else {
             int sizeOfArray = Integer.parseInt(args[0]);
+            int[] integerArray = new int[sizeOfArray];
         }
     }
 }
