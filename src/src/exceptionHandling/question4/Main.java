@@ -8,5 +8,7 @@ public class Main {
         final Scanner scanner = new Scanner(System.in);
         //  input a String from the user
         String stringValue = scanner.nextLine();
+        //  close the scanner reference
+        scanner.close();
     }
 }
