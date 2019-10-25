@@ -9,6 +9,8 @@ public class Main {
         if (args.length < 0) {
             // the user did not enter any command line arguments
             System.out.println("No command line argument given!");
+        } else {
+            int sizeOfArray = Integer.parseInt(args[0]);
         }
     }
 }
