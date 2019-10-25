@@ -11,6 +11,7 @@ public class Main {
         //  close the scanner reference
         scanner.close();
         try {
+            int counter = 0;
         } catch (ArrayIndexOutOfBoundsException ae) {
             System.out.println("Array Indices Went Out Of Bounds!");
         }
