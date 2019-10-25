@@ -12,6 +12,8 @@ public class Main {
         scanner.close();
         try {
             int counter = 0;
+            String str;
+            char[] characters = stringValue.toCharArray();
         } catch (ArrayIndexOutOfBoundsException ae) {
             System.out.println("Array Indices Went Out Of Bounds!");
         }
