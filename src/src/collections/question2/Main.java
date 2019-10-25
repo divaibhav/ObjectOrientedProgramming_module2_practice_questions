@@ -12,6 +12,7 @@ public class Main {
         } else {
             int sizeOfArray = Integer.parseInt(args[0]);
             int[] integerArray = new int[sizeOfArray];
+            integerArray[sizeOfArray + 1] = 4;
         }
     }
 }
