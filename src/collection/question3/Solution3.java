@@ -14,5 +14,12 @@ while printing. Kindly sort the list of book by price.
  */
 package collection.question3;
 
+import java.util.ArrayList;
+
 public class Solution3 {
+    public static void main(String[] args) {
+        //created list of books
+        ArrayList<Book> bookList = new ArrayList<>();
+
+    }
 }
