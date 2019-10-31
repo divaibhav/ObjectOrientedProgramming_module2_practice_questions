@@ -6,7 +6,7 @@
  */
 package collection.question4;
 
-public class Student {
+public class Student implements  Comparable<Student>{
     private String name;
     private int rollNo;
     private double cpi;
@@ -42,5 +42,12 @@ public class Student {
                 ", rollNo=" + rollNo +
                 ", cpi=" + cpi +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        int response = 0 ;
+        response = this.name.compareTo(o.name);
+        return response;
     }
 }
