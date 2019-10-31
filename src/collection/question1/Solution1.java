@@ -12,6 +12,7 @@ duplicate allowed and not allowed. Demonstrate addAll() method also.
 package collection.question1;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class Solution1 {
     public static void main(String[] args) {
@@ -52,6 +53,14 @@ public class Solution1 {
             System.out.println(no);
 
         }
+
+        //creating HashSet to store integers, set is unordered and cannot contain duplicate
+        HashSet<Integer> integerHashSet = new HashSet<>();
+
+        //adding elements
+        integerHashSet.add(100);
+        integerHashSet.add(1000);
+        integerHashSet.add(350);
 
 
 
