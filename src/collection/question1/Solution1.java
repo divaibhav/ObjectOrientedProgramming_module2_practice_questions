@@ -37,15 +37,18 @@ public class Solution1 {
         integers.add(2);
         integers.add(10);
         //printing the list
+        System.out.println("printing list");
         System.out.println(integers);
 
         // or us can use enhanced for loop
+        System.out.println("printing list using enhanced for loop");
         for (Integer integer : integers) {
             // unboxing object to primitive
             int no = integer.intValue();
             System.out.println(no);
         }
         // or with ArrayList you can use normal for loop
+        System.out.println("printing list using  for loop");
         for (int i = 0; i < integers.size(); i++) {
             //if you forgot to un-box object to primitive compiler will auto un-box for you
             // accessing each element by index using get()method
@@ -58,7 +61,7 @@ public class Solution1 {
         HashSet<Integer> integerHashSet = new HashSet<>();
 
         //adding elements
-        integerHashSet.add(100);
+        integerHashSet.add(40);
         integerHashSet.add(1000);
         integerHashSet.add(350);
         integerHashSet.add(150);
@@ -70,8 +73,10 @@ public class Solution1 {
         integerHashSet.add(1001);
 
         //printing the set
+        System.out.println("printing set");
         System.out.println(integerHashSet);
         //printing the set using enhanced for loop
+        System.out.println("printing list using enhanced for loop");
         for (Integer integer : integerHashSet) {
             System.out.println(integer);
         }
@@ -79,12 +84,15 @@ public class Solution1 {
         // adding set to list by using addAll() method
         integers.addAll(integerHashSet);
         //printing the list
+        System.out.println("list with added set");
         System.out.println(integers);
 
         // adding list to set by using addAll() method this will discard duplicates
+
         integerHashSet.addAll(integers);
 
         //printing the set
+        System.out.println("set with added list");
         System.out.println(integerHashSet);
 
 
