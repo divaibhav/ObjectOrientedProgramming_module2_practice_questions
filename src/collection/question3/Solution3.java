@@ -14,12 +14,30 @@ while printing. Kindly sort the list of book by price.
  */
 package collection.question3;
 
+import javax.security.sasl.SaslClient;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Solution3 {
     public static void main(String[] args) {
         //created list of books
         ArrayList<Book> bookList = new ArrayList<>();
+        // taking user input by using Scanner class
+        Scanner sc = new Scanner(System.in);
+        // to add 10 books
+        for (int i = 0; i < 10; i++) {
+            //reading input from user
+            String bookName = sc.nextLine();
+            String author = sc.nextLine();
+            long isbn = sc.nextLong();
+            double price = sc.nextDouble();
+            sc.nextLine();
+            // creating book object using parameterized constructor
+            Book book = new Book(bookName,author,isbn,price);
+            //adding bookmto list
+            bookList.add(book);
+        }
+
 
     }
 }
