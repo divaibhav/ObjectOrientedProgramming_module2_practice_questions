@@ -1,0 +1,10 @@
+printing list
+[20, 40, 60, 70, 50, 30, 250, 3, 2, 10]
+size = 10
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 15 out of bounds for length 10
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at collection.question2.Solution2.main(Solution2.java:43)
