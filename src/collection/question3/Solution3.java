@@ -16,6 +16,7 @@ package collection.question3;
 
 import javax.security.sasl.SaslClient;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Solution3 {
@@ -36,6 +37,21 @@ public class Solution3 {
             Book book = new Book(bookName,author,isbn,price);
             //adding bookmto list
             bookList.add(book);
+        }
+        //printing bookList using enhanced for loop
+        System.out.println("books");
+        for (Book book : bookList) {
+            System.out.println(book);
+
+        }
+
+        //sorting books by using Collections.sort() method
+        Collections.sort(bookList);
+
+        System.out.println("sorted book");
+        for (Book book : bookList) {
+            System.out.println(book);
+
         }
 
 
