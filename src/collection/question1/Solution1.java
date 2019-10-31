@@ -76,6 +76,17 @@ public class Solution1 {
             System.out.println(integer);
         }
 
+        // adding set to list by using addAll() method
+        integers.addAll(integerHashSet);
+        //printing the list
+        System.out.println(integers);
+
+        // adding list to set by using addAll() method this will discard duplicates
+        integerHashSet.addAll(integers);
+
+        //printing the set
+        System.out.println(integerHashSet);
+
 
 
 
