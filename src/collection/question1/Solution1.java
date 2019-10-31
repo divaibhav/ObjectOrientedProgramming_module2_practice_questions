@@ -21,6 +21,7 @@ public class Solution1 {
         // by passing primitive value, which will be converted to object by autoboxing
         integers.add(20);
         //creating Integer object to represent primitive value 40 by using valueOf() method
+        //using boxing
         Integer obj = Integer.valueOf(40);
         //adding obj to list
         integers.add(obj);
