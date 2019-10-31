@@ -5,8 +5,12 @@
  *  Time: 5:59 PM
  */
 package collection.question3;
-//custom Book class
-public class Book {
+/*
+custom Book class
+ for sorting custom class objects your class must implements Comparable interface
+ or implements Comparator interface
+*/
+public class Book implements Comparable<Book> {
     //instance fields
     private String bookName;
     private String author;
@@ -50,5 +54,19 @@ public class Book {
                 ", isbn=" + isbn +
                 ", price=" + price +
                 '}';
+    }
+    //method used for sorting
+    @Override
+    public int compareTo(Book o) {
+        //sorting on the basis of price
+        if(this.price < o.price){
+            return -1;
+        }
+        else if(this.price > o.price){
+            return 1;
+        }
+        else {
+            return 0;
+        }
     }
 }
