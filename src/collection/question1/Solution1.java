@@ -69,6 +69,15 @@ public class Solution1 {
         integerHashSet.add(3150);
         integerHashSet.add(1001);
 
+        //printing the set
+        System.out.println(integerHashSet);
+        //printing the set using enhanced for loop
+        for (Integer integer : integerHashSet) {
+            System.out.println(integer);
+        }
+
+
+
 
 
 
