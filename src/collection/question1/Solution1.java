@@ -35,6 +35,23 @@ public class Solution1 {
         integers.add(3);
         integers.add(2);
         integers.add(10);
+        //printing the list
+        System.out.println(integers);
+
+        // or us can use enhanced for loop
+        for (Integer integer : integers) {
+            // unboxing object to primitive
+            int no = integer.intValue();
+            System.out.println(no);
+        }
+        // or with ArrayList you can use normal for loop
+        for (int i = 0; i < integers.size(); i++) {
+            //if you forgot to un-box object to primitive compiler will auto un-box for you
+            // accessing each element by index using get()method
+            int no  = integers.get(i);
+            System.out.println(no);
+
+        }
 
 
 
