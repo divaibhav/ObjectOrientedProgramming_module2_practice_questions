@@ -9,7 +9,7 @@ package multithreading.question3;
 public class Solution3 {
     public static void main(String[] args) {
         Thread currentThread = Thread.currentThread();
-        System.out.println(currentThread.getPriority());
+        System.out.println("Priority of main Thread = " +  currentThread.getPriority());
 
     }
 }
