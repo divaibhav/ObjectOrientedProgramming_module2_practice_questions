@@ -61,6 +61,16 @@ public class Solution1 {
         integerHashSet.add(100);
         integerHashSet.add(1000);
         integerHashSet.add(350);
+        integerHashSet.add(150);
+        integerHashSet.add(1050);
+        integerHashSet.add(3500);
+        integerHashSet.add(1010);
+        integerHashSet.add(10010);
+        integerHashSet.add(3150);
+        integerHashSet.add(1001);
+
+
+
 
 
 
