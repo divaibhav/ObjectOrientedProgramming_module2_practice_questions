@@ -13,7 +13,7 @@ public class Task1 extends Thread {
         for (int i = 0; i < 10; i++) {
             try {
                 Thread.sleep(5000);
-                System.out.println("hello");
+                System.out.print("hello -> ");
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
