@@ -16,7 +16,7 @@ public class Solution7 {
         Thread currentThread = Thread.currentThread();
         t1.start();
         t2.start();
-        for (int i = 0; i < 10; i++) {
+        while(t2.isAlive()){
 
 
             try {
