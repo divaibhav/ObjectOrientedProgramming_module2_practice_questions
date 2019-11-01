@@ -72,6 +72,16 @@ Double average(Integer sum, Integer numberOfElements). Do casting as required fo
 8. Create 2 threads t1 and t2 by extending Thread class and print hello and world respectively by t1 and t2. Create 2 more threads
 t3 & t4 by implementing Runnable interface to print java & programming respectively by t3 & t4.
 
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question8/Solution8.java]
+    
+    Task1 class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question8/Task1.java]
+    
+    Task2 class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question8/Task2.java]
+    
+    Task3 class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question8/Task3.java]
+    
+    Task4 class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question8/Task4.java]
+
 ### Generics
 1. Create a generic Student class to demonstrate use of generic. Student class contains a field called name, this field will show generic behavior.
 It can be of Type String or Name, where name is a class representing name by two fields String firstName and String LastName.
