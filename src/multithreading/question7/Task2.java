@@ -14,13 +14,11 @@ public class Task2 implements Runnable {
     public void run() {
         Scanner sc =new Scanner(System.in);
         for (int i = 0; i < 10 ; i++) {
-            try {
-                Thread.sleep(2000);
+
                 System.out.print("world -> ");
                 sc.nextLine();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
+
         }
     }
 }
