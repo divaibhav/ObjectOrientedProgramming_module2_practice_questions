@@ -45,10 +45,27 @@ Double average(Integer sum, Integer numberOfElements). Do casting as required fo
 
 ### Multithreading
 1. Write a program to demonstrate multi threading.
+
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question1/Solution1.java]
+    
+    Task1 class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question1/Task1.java]
+    
+    Task2 class[https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question1/Task2.java]
 2. Create two threads t1 & t2, t1 will print all the even numbers from 0 to 100 and t2 will print all the odd numbers from 100 to 0.
-Both threads will goto sleep for 1 sec after printing one number.
+    Both threads will goto sleep for 1 sec after printing one number.
+
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question2/Solution2.java]
+    
+    Task1 class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question2/Task1.java]
+    
+    Task2 class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question2/Task2.java]
+
 3. Write a program to print the priority of main thread.
+
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question3/Solution3.java]
 4. Write a program to set main thread priority to maximum.
+
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/multithreading/question4/Solution4.java]
 5. What will happen if you accidentally set thread priority to 100?. Write program to demonstrate it.
 6. Write program to demonstrate use of Thread.sleep() method.
 7. Write a program to print 3 states of Thread.
@@ -59,7 +76,15 @@ t3 & t4 by implementing Runnable interface to print java & programming respectiv
 1. Create a generic Student class to demonstrate use of generic. Student class contains a field called name, this field will show generic behavior.
 It can be of Type String or Name, where name is a class representing name by two fields String firstName and String LastName.
 
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/generic/question1/Solution1.java]
+    
+    Name class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/generic/question1/Name.java]
+    
+    Student class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/generic/question1/Student.java]
+
 2. Create a generic method sum which accept array of any subtype of Number and return a double value by adding all the elements of the given array.
+
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/generic/question2/Solution2.java]
 
 ### Collection (ArrayList & HashSet)
 1. Create a List & Set of 10 integers and demonstrate ordered and unordered collection as well as duplicate allowed and not allowed.
@@ -81,4 +106,10 @@ Kindly sort the list of book by price.
 4. Create a List of 10 Student objects, where Student is a user defined class. Student class contains three private fields int rollNo, String name, and 
 double cpi. Student class must override String toString() method of Object class. Kindly sort the student by there name. And also delete the students whose name 
 starts with "A" & "J".
+
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/collection/question4/Solution4.java]
+    
+    Student class [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/collection/question4/Student.java]
 5. Create a list of 10 Integer objects and process the list element by element to count objects containing even value. Print the total number of odd objects after counting even objects.
+
+    solution [https://github.com/divaibhav/oops_module2_practice_questions/blob/master/src/collection/question5/Solution5.java]
