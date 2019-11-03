@@ -15,7 +15,7 @@ public class Solution4 {
             System.out.println("Both contains same characters");
         }
         else {
-            System.out.println("Both contains dofferent characters");
+            System.out.println("Both contains different characters");
         }
 
 
