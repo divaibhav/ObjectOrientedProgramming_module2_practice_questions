@@ -9,7 +9,7 @@ package stringhandling.question4;
 public class Solution4 {
     public static void main(String[] args) {
         String s1 = "amar";
-        String s2 = "Rama";
+        String s2 = "rama";
         Solution4 obj = new Solution4();
         if(obj.checkStrings(s1,s2)){
             System.out.println("Both contains same characters");
