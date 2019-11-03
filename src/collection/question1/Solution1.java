@@ -13,6 +13,7 @@ package collection.question1;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class Solution1 {
     public static void main(String[] args) {
@@ -94,6 +95,10 @@ public class Solution1 {
         //printing the set
         System.out.println("set with added list");
         System.out.println(integerHashSet);
+
+        //delete
+        Iterator<Integer> itr = integerHashSet.iterator();
+        System.out.println(itr.next().getClass());
 
 
 
