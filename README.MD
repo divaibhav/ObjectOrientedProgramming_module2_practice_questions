@@ -1,4 +1,4 @@
-# OOPS_Module2_practice_questions
+# ObjectOrientedProgramming_Module2_practice_questions
 
 ### Exception Handling
 1. Define an custom exception (i.e. user defined exception) class called "MyFirstException". This class contains a parameterized
